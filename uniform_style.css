@@ -1,0 +1,144 @@
+    h1 {
+        color: cornflowerblue;
+        font-family: 'Heebo';
+    }
+    
+    #footer {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: auto;
+        background-color: #efefef;
+        text-align: center;
+    }
+    
+    #navlink a:hover {
+        color: orange;
+    }
+    
+    #navlist ul {
+        list-style-type: none;
+        list-style-image: none;
+        margin-top: 50px;
+    }
+    
+    #navlist ul li a {
+        float: left;
+        list-style-type: none;
+        margin: auto;
+        overflow: hidden;
+        background-color: rgb(0, 0, 205);
+        display: block;
+        color: white;
+        padding: 14px 27px;
+        text-decoration: none;
+        font-family: sans-serif, "Arial Narrow", Arial, "Franklin Gothic Medium";
+        border-right: 1.2px solid;
+        border-bottom: 1.8px solid orange;
+    }
+    
+    #navlist a:hover {
+        background-color: white;
+        color: orange;
+    }
+    
+    #navt a:visited {
+        background-color: lightblue;
+        color: orange;
+    }
+    
+    .wrapper {
+        width: 1150px;
+        margin: 14px auto 14px auto;
+    }
+    
+    img {
+        position: relative;
+    }
+    
+    .contain {
+        max-width: 960px;
+        text-align: center;
+    }
+    
+    .category {
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+        left: calc(2.5%);
+    }
+    
+    .principal {
+        background-color: lightgrey;
+        padding: 4px;
+        margin: 5px;
+        border-right: solid blue;
+    }
+    
+    img.align-left {
+        float: left;
+        margin-right: 15px;
+    }
+    
+    header {
+        height: auto;
+        border-left: solid orange;
+        border-right: solid orange;
+    }
+    
+    img.align-left2 {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    
+    body {
+        background-color: rgb(245, 245, 245);
+    }
+    
+    section {
+        background-color: rgb(255, 250, 240);
+    }
+    
+    .parrafo {
+        font-size: 2.8em;
+        padding-bottom: 50px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 5px rgba(0, 140, 186, 0.5);
+    }
+    
+    #im img:hover {
+        box-shadow: 0 0 1px 3px rgba(0, 140, 186, 0.5);
+    }
+    
+    #im2 img:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+    /* The animation code */
+    
+    @keyframes example {
+        from {
+            background-color: lightsalmon;
+        }
+        to {
+            background-color: lightblue;
+        }
+    }
+    
+    @keyframes examplep {
+        from {
+            background-color: lightblue;
+        }
+        to {
+            background-color: lightsalmon;
+        }
+    }
+    
+    #spac li {
+        margin: 10px 0;
+        padding: 0px 50px;
+    }
